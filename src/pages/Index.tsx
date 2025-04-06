@@ -5,6 +5,7 @@ import Hero from '../components/Hero';
 import HowItWorks from '../components/HowItWorks';
 import Agents from '../components/Agents';
 import Benefits from '../components/Benefits';
+import AgentFlow from '../components/AgentFlow';
 import ContactForm from '../components/ContactForm';
 import Footer from '../components/Footer';
 
@@ -16,6 +17,7 @@ const Index = () => {
         <Hero />
         <HowItWorks />
         <Agents />
+        <AgentFlow />
         <Benefits />
         <ContactForm />
       </main>
