@@ -10,7 +10,7 @@ const Footer = () => {
           <div>
             <h3 className="text-2xl font-bold mb-6">DServ</h3>
             <p className="mb-6">
-              Global logistics solutions that connect businesses to markets worldwide, with reliability and efficiency.
+              Revolutionizing product creation through AI agents that analyze, design, source, and deliver the products you truly want.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="bg-white/10 hover:bg-logistics-accent p-2 rounded-full transition-colors">
@@ -32,21 +32,21 @@ const Footer = () => {
             <h4 className="text-lg font-bold mb-6">Quick Links</h4>
             <ul className="space-y-3">
               <li><a href="#home" className="hover:text-logistics-accent transition-colors">Home</a></li>
-              <li><a href="#services" className="hover:text-logistics-accent transition-colors">Services</a></li>
-              <li><a href="#about" className="hover:text-logistics-accent transition-colors">About Us</a></li>
-              <li><a href="#network" className="hover:text-logistics-accent transition-colors">Global Network</a></li>
+              <li><a href="#how-it-works" className="hover:text-logistics-accent transition-colors">How It Works</a></li>
+              <li><a href="#agents" className="hover:text-logistics-accent transition-colors">Our Agents</a></li>
+              <li><a href="#benefits" className="hover:text-logistics-accent transition-colors">Benefits</a></li>
               <li><a href="#contact" className="hover:text-logistics-accent transition-colors">Contact</a></li>
             </ul>
           </div>
           
           <div>
-            <h4 className="text-lg font-bold mb-6">Our Services</h4>
+            <h4 className="text-lg font-bold mb-6">AI Agents</h4>
             <ul className="space-y-3">
-              <li><a href="#" className="hover:text-logistics-accent transition-colors">Road Freight</a></li>
-              <li><a href="#" className="hover:text-logistics-accent transition-colors">Ocean Freight</a></li>
-              <li><a href="#" className="hover:text-logistics-accent transition-colors">Air Freight</a></li>
-              <li><a href="#" className="hover:text-logistics-accent transition-colors">Warehousing</a></li>
-              <li><a href="#" className="hover:text-logistics-accent transition-colors">Supply Chain</a></li>
+              <li><a href="#" className="hover:text-logistics-accent transition-colors">Analysis Agent</a></li>
+              <li><a href="#" className="hover:text-logistics-accent transition-colors">Product Manager Agent</a></li>
+              <li><a href="#" className="hover:text-logistics-accent transition-colors">Builder Agent</a></li>
+              <li><a href="#" className="hover:text-logistics-accent transition-colors">Crawler Agent</a></li>
+              <li><a href="#" className="hover:text-logistics-accent transition-colors">Contract Agent</a></li>
             </ul>
           </div>
           
@@ -55,7 +55,7 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex">
                 <MapPin size={18} className="mr-3 flex-shrink-0 mt-1" />
-                <span>123 Logistics Way, New York, NY 10001, United States</span>
+                <span>123 Innovation Way, San Francisco, CA 94107, United States</span>
               </li>
               <li className="flex">
                 <Phone size={18} className="mr-3 flex-shrink-0" />
@@ -63,7 +63,7 @@ const Footer = () => {
               </li>
               <li className="flex">
                 <Mail size={18} className="mr-3 flex-shrink-0" />
-                <span>info@dserv.com</span>
+                <span>info@dserv.ai</span>
               </li>
             </ul>
           </div>

@@ -16,14 +16,14 @@ const Navbar = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
             <a href="#home" className="hover:text-logistics-accent transition-colors">Home</a>
-            <a href="#services" className="hover:text-logistics-accent transition-colors">Services</a>
-            <a href="#about" className="hover:text-logistics-accent transition-colors">About Us</a>
-            <a href="#network" className="hover:text-logistics-accent transition-colors">Network</a>
+            <a href="#how-it-works" className="hover:text-logistics-accent transition-colors">How It Works</a>
+            <a href="#agents" className="hover:text-logistics-accent transition-colors">Our Agents</a>
+            <a href="#benefits" className="hover:text-logistics-accent transition-colors">Benefits</a>
             <a href="#contact" className="hover:text-logistics-accent transition-colors">Contact</a>
           </div>
           
           <div className="hidden md:block">
-            <Button className="bg-logistics-accent hover:bg-amber-500 text-white">Get a Quote</Button>
+            <Button className="bg-logistics-accent hover:bg-amber-500 text-white">Get Started</Button>
           </div>
           
           {/* Mobile Menu Button */}
@@ -42,11 +42,11 @@ const Navbar = () => {
           <div className="md:hidden pt-4 pb-4 animate-fade-in">
             <div className="flex flex-col space-y-4">
               <a href="#home" className="hover:text-logistics-accent transition-colors" onClick={() => setIsMenuOpen(false)}>Home</a>
-              <a href="#services" className="hover:text-logistics-accent transition-colors" onClick={() => setIsMenuOpen(false)}>Services</a>
-              <a href="#about" className="hover:text-logistics-accent transition-colors" onClick={() => setIsMenuOpen(false)}>About Us</a>
-              <a href="#network" className="hover:text-logistics-accent transition-colors" onClick={() => setIsMenuOpen(false)}>Network</a>
+              <a href="#how-it-works" className="hover:text-logistics-accent transition-colors" onClick={() => setIsMenuOpen(false)}>How It Works</a>
+              <a href="#agents" className="hover:text-logistics-accent transition-colors" onClick={() => setIsMenuOpen(false)}>Our Agents</a>
+              <a href="#benefits" className="hover:text-logistics-accent transition-colors" onClick={() => setIsMenuOpen(false)}>Benefits</a>
               <a href="#contact" className="hover:text-logistics-accent transition-colors" onClick={() => setIsMenuOpen(false)}>Contact</a>
-              <Button className="bg-logistics-accent hover:bg-amber-500 text-white w-full">Get a Quote</Button>
+              <Button className="bg-logistics-accent hover:bg-amber-500 text-white w-full">Get Started</Button>
             </div>
           </div>
         )}

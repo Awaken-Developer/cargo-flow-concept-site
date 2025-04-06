@@ -2,9 +2,9 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
-import Services from '../components/Services';
-import About from '../components/About';
-import GlobalNetwork from '../components/GlobalNetwork';
+import HowItWorks from '../components/HowItWorks';
+import Agents from '../components/Agents';
+import Benefits from '../components/Benefits';
 import ContactForm from '../components/ContactForm';
 import Footer from '../components/Footer';
 
@@ -14,9 +14,9 @@ const Index = () => {
       <Navbar />
       <main className="flex-grow">
         <Hero />
-        <Services />
-        <About />
-        <GlobalNetwork />
+        <HowItWorks />
+        <Agents />
+        <Benefits />
         <ContactForm />
       </main>
       <Footer />
