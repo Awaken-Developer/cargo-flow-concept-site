@@ -14,10 +14,10 @@ const About = () => {
         <div className="flex flex-col lg:flex-row gap-12 items-center">
           <div className="lg:w-1/2">
             <h2 className="text-3xl md:text-4xl font-bold text-logistics-primary mb-6">
-              About CargoFlow
+              About DServ
             </h2>
             <p className="text-lg text-gray-700 mb-6">
-              With over 15 years of experience in the logistics industry, CargoFlow has established itself as a trusted partner for businesses worldwide. We specialize in providing integrated logistics solutions that optimize your supply chain and drive business growth.
+              With over 15 years of experience in the logistics industry, DServ has established itself as a trusted partner for businesses worldwide. We specialize in providing integrated logistics solutions that optimize your supply chain and drive business growth.
             </p>
             <p className="text-lg text-gray-700 mb-8">
               Our global network spans across 120+ countries, allowing us to deliver seamless logistics services regardless of your location or destination. We combine industry expertise, advanced technology, and a customer-centric approach to ensure your cargo reaches its destination safely and on time.

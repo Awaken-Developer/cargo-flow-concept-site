@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import DServLogo from './DServLogo';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,9 +11,7 @@ const Navbar = () => {
     <nav className="bg-logistics-primary text-white shadow-md fixed w-full z-50">
       <div className="container mx-auto px-4 py-3">
         <div className="flex justify-between items-center">
-          <div className="flex items-center space-x-2">
-            <div className="text-2xl font-bold">CargoFlow</div>
-          </div>
+          <DServLogo />
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
