@@ -22,6 +22,8 @@ const initialNodes = [
       borderColor: '#9E76ED',
       borderWidth: 2,
       width: 180,
+      boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+      fontWeight: 500,
     },
   },
   {
@@ -33,6 +35,8 @@ const initialNodes = [
       borderColor: '#9E76ED',
       borderWidth: 2,
       width: 180,
+      boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+      fontWeight: 500,
     },
   },
   {
@@ -44,6 +48,8 @@ const initialNodes = [
       borderColor: '#9E76ED',
       borderWidth: 2,
       width: 180,
+      boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+      fontWeight: 500,
     },
   },
   {
@@ -55,6 +61,8 @@ const initialNodes = [
       borderColor: '#9E76ED',
       borderWidth: 2,
       width: 180,
+      boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+      fontWeight: 500,
     },
   },
   {
@@ -66,6 +74,8 @@ const initialNodes = [
       borderColor: '#9E76ED',
       borderWidth: 2,
       width: 180,
+      boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+      fontWeight: 500,
     },
   },
   {
@@ -78,6 +88,8 @@ const initialNodes = [
       borderColor: '#9E76ED',
       borderWidth: 2,
       width: 180,
+      boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+      fontWeight: 500,
     },
   },
   {
@@ -89,6 +101,8 @@ const initialNodes = [
       borderColor: '#F5A623',
       borderWidth: 2,
       width: 150,
+      boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+      fontWeight: 500,
     },
   },
   {
@@ -101,6 +115,8 @@ const initialNodes = [
       borderWidth: 2,
       width: 150,
       borderRadius: '50%',
+      boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+      fontWeight: 500,
     },
   },
   {
@@ -112,23 +128,25 @@ const initialNodes = [
       borderColor: '#1890ff',
       borderWidth: 2,
       width: 150,
+      boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+      fontWeight: 500,
     },
   },
 ];
 
 const initialEdges = [
-  { id: 'e1-2', source: '1', target: '2', animated: true, style: { stroke: '#9E76ED' } },
-  { id: 'e2-3', source: '2', target: '3', animated: true, style: { stroke: '#9E76ED' } },
-  { id: 'e3-4', source: '3', target: '4', animated: true, style: { stroke: '#9E76ED' } },
-  { id: 'e4-5', source: '4', target: '5', animated: true, style: { stroke: '#9E76ED' } },
-  { id: 'e5-6', source: '5', target: '6', animated: true, style: { stroke: '#9E76ED' } },
+  { id: 'e1-2', source: '1', target: '2', animated: true, style: { stroke: '#9E76ED', strokeWidth: 2 } },
+  { id: 'e2-3', source: '2', target: '3', animated: true, style: { stroke: '#9E76ED', strokeWidth: 2 } },
+  { id: 'e3-4', source: '3', target: '4', animated: true, style: { stroke: '#9E76ED', strokeWidth: 2 } },
+  { id: 'e4-5', source: '4', target: '5', animated: true, style: { stroke: '#9E76ED', strokeWidth: 2 } },
+  { id: 'e5-6', source: '5', target: '6', animated: true, style: { stroke: '#9E76ED', strokeWidth: 2 } },
   { 
     id: 'e7-1', 
     source: '7', 
     target: '1', 
     label: 'Hosts', 
-    labelStyle: { fill: '#555' },
-    style: { stroke: '#F5A623' },
+    labelStyle: { fill: '#555', fontWeight: 500 },
+    style: { stroke: '#F5A623', strokeWidth: 2 },
     markerEnd: { type: MarkerType.ArrowClosed, color: '#F5A623' },
   },
   { 
@@ -136,8 +154,8 @@ const initialEdges = [
     source: '2', 
     target: '8', 
     label: 'Suggests products', 
-    labelStyle: { fill: '#555' },
-    style: { stroke: '#1890ff' },
+    labelStyle: { fill: '#555', fontWeight: 500 },
+    style: { stroke: '#1890ff', strokeWidth: 2 },
     markerEnd: { type: MarkerType.ArrowClosed, color: '#1890ff' },
   },
   { 
@@ -145,8 +163,8 @@ const initialEdges = [
     source: '8', 
     target: '3', 
     label: 'Approves concept', 
-    labelStyle: { fill: '#555' },
-    style: { stroke: '#1890ff' },
+    labelStyle: { fill: '#555', fontWeight: 500 },
+    style: { stroke: '#1890ff', strokeWidth: 2 },
     markerEnd: { type: MarkerType.ArrowClosed, color: '#1890ff' },
   },
   { 
@@ -154,8 +172,8 @@ const initialEdges = [
     source: '4', 
     target: '9', 
     label: 'Searches for materials', 
-    labelStyle: { fill: '#555' },
-    style: { stroke: '#1890ff' },
+    labelStyle: { fill: '#555', fontWeight: 500 },
+    style: { stroke: '#1890ff', strokeWidth: 2 },
     markerEnd: { type: MarkerType.ArrowClosed, color: '#1890ff' },
   },
   { 
@@ -163,8 +181,8 @@ const initialEdges = [
     source: '9', 
     target: '5', 
     label: 'Provides options', 
-    labelStyle: { fill: '#555' },
-    style: { stroke: '#1890ff' },
+    labelStyle: { fill: '#555', fontWeight: 500 },
+    style: { stroke: '#1890ff', strokeWidth: 2 },
     markerEnd: { type: MarkerType.ArrowClosed, color: '#1890ff' },
   },
   { 
@@ -172,8 +190,8 @@ const initialEdges = [
     source: '5', 
     target: '8', 
     label: 'Presents quotation', 
-    labelStyle: { fill: '#555' },
-    style: { stroke: '#1890ff' },
+    labelStyle: { fill: '#555', fontWeight: 500 },
+    style: { stroke: '#1890ff', strokeWidth: 2 },
     markerEnd: { type: MarkerType.ArrowClosed, color: '#1890ff' },
   },
   { 
@@ -181,8 +199,8 @@ const initialEdges = [
     source: '8', 
     target: '6', 
     label: 'Approves purchase', 
-    labelStyle: { fill: '#555' },
-    style: { stroke: '#1890ff' },
+    labelStyle: { fill: '#555', fontWeight: 500 },
+    style: { stroke: '#1890ff', strokeWidth: 2 },
     markerEnd: { type: MarkerType.ArrowClosed, color: '#1890ff' },
   },
 ];
@@ -192,7 +210,7 @@ const AgentFlowDiagram = () => {
   const [edges] = useEdgesState(initialEdges);
 
   return (
-    <div style={{ width: '100%', height: '600px' }}>
+    <div style={{ width: '100%', height: '600px' }} className="rounded-lg overflow-hidden shadow-lg">
       <ReactFlow
         nodes={nodes}
         edges={edges}
@@ -200,8 +218,17 @@ const AgentFlowDiagram = () => {
         attributionPosition="bottom-right"
       >
         <Controls />
-        <MiniMap />
-        <Background variant="dots" gap={12} size={1} />
+        <MiniMap 
+          nodeStrokeColor={(n) => {
+            if (n.style?.borderColor) return n.style.borderColor;
+            return '#0F2C59';
+          }}
+          nodeColor={(n) => {
+            if (n.style?.backgroundColor) return n.style.backgroundColor;
+            return '#fff';
+          }}
+        />
+        <Background variant="dots" size={1} gap={12} color="#0F2C59" />
       </ReactFlow>
     </div>
   );

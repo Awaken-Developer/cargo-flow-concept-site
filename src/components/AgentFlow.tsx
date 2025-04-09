@@ -3,10 +3,11 @@ import React from 'react';
 import AgentFlowDiagram from './AgentFlowDiagram';
 import AgentCommunicationFlow from './AgentCommunicationFlow';
 import UserInteractionPoints from './UserInteractionPoints';
+import { Card } from '@/components/ui/card';
 
 const AgentFlow = () => {
   return (
-    <section id="agent-flow" className="py-20 bg-gray-50">
+    <section id="agent-flow" className="py-24 bg-gradient-to-b from-gray-50 to-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-logistics-primary mb-4">How Our Agents Connect</h2>
@@ -15,11 +16,11 @@ const AgentFlow = () => {
           </p>
         </div>
         
-        <div className="mt-6">
+        <Card className="p-6 mb-12 border-none shadow-lg">
           <AgentFlowDiagram />
-        </div>
+        </Card>
         
-        <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
           <AgentCommunicationFlow />
           <UserInteractionPoints />
         </div>
