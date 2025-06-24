@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Select } from '@/components/ui/select';
-import { Mail, Phone, MapPin } from 'lucide-react';
+import { Mail } from 'lucide-react';
 
 const ContactForm = () => {
   return (
@@ -32,15 +32,9 @@ const ContactForm = () => {
                 </div>
               </div>
               
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
-                  <label htmlFor="email" className="block mb-2 font-medium">Email</label>
-                  <Input id="email" type="email" placeholder="john@example.com" required />
-                </div>
-                <div>
-                  <label htmlFor="phone" className="block mb-2 font-medium">Phone</label>
-                  <Input id="phone" placeholder="+1 (123) 456-7890" />
-                </div>
+              <div>
+                <label htmlFor="email" className="block mb-2 font-medium">Email</label>
+                <Input id="email" type="email" placeholder="john@example.com" required />
               </div>
               
               <div>
@@ -72,35 +66,11 @@ const ContactForm = () => {
               <div className="space-y-6">
                 <div className="flex items-start">
                   <div className="mr-4 p-3 bg-white/10 rounded-full">
-                    <MapPin size={20} />
-                  </div>
-                  <div>
-                    <h4 className="font-bold mb-1">Headquarters</h4>
-                    <p>123 Logistics Way</p>
-                    <p>New York, NY 10001</p>
-                    <p>United States</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start">
-                  <div className="mr-4 p-3 bg-white/10 rounded-full">
                     <Mail size={20} />
                   </div>
                   <div>
                     <h4 className="font-bold mb-1">Email</h4>
-                    <p>info@cargoflow.com</p>
-                    <p>support@cargoflow.com</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start">
-                  <div className="mr-4 p-3 bg-white/10 rounded-full">
-                    <Phone size={20} />
-                  </div>
-                  <div>
-                    <h4 className="font-bold mb-1">Phone</h4>
-                    <p>+1 (555) 123-4567</p>
-                    <p>+1 (555) 765-4321</p>
+                    <p>founders@transion.in</p>
                   </div>
                 </div>
                 

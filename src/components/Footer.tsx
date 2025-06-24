@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Facebook, Twitter, Linkedin, Instagram, Phone, Mail, MapPin } from 'lucide-react';
+import { Facebook, Twitter, Linkedin, Instagram, Mail } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -52,20 +52,10 @@ const Footer = () => {
           
           <div>
             <h4 className="text-lg font-bold mb-6">Contact Us</h4>
-            <ul className="space-y-4">
-              <li className="flex">
-                <MapPin size={18} className="mr-3 flex-shrink-0 mt-1" />
-                <span>123 Innovation Way, San Francisco, CA 94107, United States</span>
-              </li>
-              <li className="flex">
-                <Phone size={18} className="mr-3 flex-shrink-0" />
-                <span>+1 (555) 123-4567</span>
-              </li>
-              <li className="flex">
-                <Mail size={18} className="mr-3 flex-shrink-0" />
-                <span>info@dserv.ai</span>
-              </li>
-            </ul>
+            <div className="flex">
+              <Mail size={18} className="mr-3 flex-shrink-0" />
+              <span>founders@transion.in</span>
+            </div>
           </div>
         </div>
         
